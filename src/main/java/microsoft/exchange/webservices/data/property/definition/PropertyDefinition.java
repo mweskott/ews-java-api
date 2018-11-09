@@ -226,4 +226,11 @@ public abstract class PropertyDefinition extends
   @Override public String getPrintableName() {
     return this.getName();
   }
+  
+  /**
+   * For a better debugging if you look at a PropertyBag.  
+   */
+  @Override	public String toString() {
+    return this.xmlElementName;
+  }
 }

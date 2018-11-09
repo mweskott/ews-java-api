@@ -56,7 +56,14 @@ public enum LegacyFreeBusyStatus {
   /**
    * The No data.
    */
-  NoData(4);
+  NoData(4),
+  
+  // The time slot associated with the appointment appears as Working Elsewhere.
+  /**
+   * The WorkingElsewhere.
+   */
+  WorkingElsewhere(5);
+  
 
   /**
    * The busy status.
